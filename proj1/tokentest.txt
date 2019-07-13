@@ -1,0 +1,47 @@
+id x
+whitespace  
+= =
+whitespace  
+int 3
+whitespace 
+id y
+whitespace  
+= =
+whitespace  
+int 5
+whitespace 
+id z
+whitespace  
+= =
+whitespace  
+( (
+id x
+whitespace  
++ +
+whitespace  
+id y
+) )
+whitespace  
+/ /
+whitespace  
+int 3
+whitespace 
+print print
+whitespace  
+id z
+whitespace 
+epsilon epsilon
+whitespace 
+eof eof
+
+Various tests for tokens
+( (
+) )
++ +
+- -
+* *
+/ /
+whitespace /n
+print print
+int 123
+id abc
